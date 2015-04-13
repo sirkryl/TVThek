@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+    <ViewFlipper
+    	android:id="@+id/flip"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1" >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    -->
+
+    <Button
+        android:id="@+id/button_createPlaylist"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_addlistitem"
+        android:drawableLeft="@drawable/add_plus"
+        android:drawablePadding="20dp"
+        android:onClick="onButtonClick_button_createPlaylist"
+        android:text="@string/addPlaylistButton_text" />
+
+  <!--   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3d4b5c"
+        android:clickable="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/list_add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="neue Playlist" >
+        </TextView>
+    </LinearLayout> -->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" >
+    </ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_playlists" />
+
+    <!--
+    </RelativeLayout>
+    
+   
+    <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="match_parent">
+         <ListView
+	        android:id="@android:id/list"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true" >
+    	</ListView>
+    
+    	<TextView android:id="@android:id/empty"
+        	android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No Videos" />
+     </LinearLayout>   
+    </ViewFlipper>
+
+
+    -->
+
+</LinearLayout>

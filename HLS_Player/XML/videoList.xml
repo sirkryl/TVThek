@@ -1,0 +1,10 @@
+<rss version="2.0">
+    <channel>
+    <!-- Test Contents for Http Adaptive Streaming which is provided by Galaxia Communications -->  
+	<item>
+        <title>Big Buck Bunny (HAS) - all bitrates</title>
+        <link>http://drq08ysq9m8gx.cloudfront.net/TestStream/HLS_BigBuckTS.m3u8|COMPONENT=HLS</link>   
+        <description>HAS Type Adaptive VoD Content : adaptively switches from/to stream using all available bitrates(0.5M, 1M, 2M, 4M)</description>
+    </item> 	
+    </channel>
+</rss>

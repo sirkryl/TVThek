@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidAppActivity!</string>
+
+    <!-- Application name -->
+    <string name="app_name">PlaylistApp</string>
+
+    <!-- SmartTVApp name -->
+    <string name="smarttv_name">SmartTVApp</string>
+
+    <!-- Title, name of the activity -->
+    <string name="label_playlists_activity">Playlist</string>
+    <string name="label_tv_activity">TV</string>
+    <string name="label_tvthek_activity">TV Thek</string>
+
+    <!-- Menus -->
+    <string name="options">Einstellungen</string>
+    <string name="help">Hilfe</string>
+
+    <!-- Contextmenu PlaylistActivity -->
+    <string name="tv">TV</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Umbenennen</string>
+    <string name="alert_dialog_single_choice">Alert Dialog Single Choice</string>
+
+    <string-array name="select_dialog_items2">
+        <item> select dialog 1</item>
+        <item> select dialog 2</item>
+    </string-array>
+
+    <string name="alert_dialog_ok">alert dialog ok</string>
+    <string name="alert_dialog_cancel">alert dialog cancel</string>
+
+    <!-- Info messages for PlaylistActivity -->
+    <string name="no_playlists">Keine Playlists</string>
+    <string name="addPlaylistButton_text">Neue Playlist hinzufügen</string>
+    <string name="addClipButton_text">Neuen Beitrag auswählen</string>
+    <string name="no_entry">Keine Videos</string>
+    <string name="sendToTV_text">An TV senden</string>
+
+    <!-- Info messages for TVActivity -->
+    <string name="send_message_success">Nachricht gesendet</string>
+    <string name="empty_tv">Keine Beiträge am TV vorhanden</string>
+    <string name="searchForTVs_text">Erneute Suche</string>
+    <string name="choose_tv">TV auswählen</string>
+    <string name="loaded_playlist">Playlist von TV geladen</string>
+
+    <!-- Error messages for TVActivity -->
+    <string name="no_tvs">Keine TVs verfügbar</string>
+    <string name="connect_fail">Verbindung fehlgeschlagen</string>
+    <string name="send_message_fail">Nachricht senden fehlgeschlagen</string>
+
+    <!-- Messages for TVThekActivity -->
+    <string name="tvthekAddSpot_text">Diesen Beitrag hinzufügen</string>
+
+    <!-- Content Descriptions -->
+    <string name="btn_play_string">Play</string>
+    <string name="tvThekInfoButton_text">Es muss eine Playlist ausgewählt werden, bevor Beiträge hinzugefügt werden können.</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle"></item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="TVThekButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle"></item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    
+    <style name="InfoButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+</resources>

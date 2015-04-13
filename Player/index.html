@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>TVThek - Playlists</title>
+        
+		<!-- Common widget -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/CImageViewer.js"></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/webapi/1.0/deviceapis.js"></script>
+        
+		<!-- Widget code -->
+		<script type="text/javascript" language="javascript" src="app/javascript/Main.js"></script>		
+        <script language="javascript" type="text/javascript" src="app/javascript/Server.js"></script>
+        <script language="javascript" type="text/javascript" src="app/javascript/Data.js"></script>
+        <script language="javascript" type="text/javascript" src="app/javascript/Player.js"></script>
+        <script language="javascript" type="text/javascript" src="app/javascript/Audio.js"></script>
+        <script language="javascript" type="text/javascript" src="app/javascript/Display.js"></script>
+		<!-- Style sheets -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+		
+		<!-- Plugins -->
+        <object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER" style="position:absolute; z-index:99;left:391px;top:60px;width:510px;height:287px"></object>
+        <object id="pluginAudio" border=0 classid="clsid:SAMSUNG-INFOLINK-AUDIO"></object>
+        <object id="pluginTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW"></object>
+		<object id='pluginObjectAppCommon' classid='clsid:SAMSUNG-INFOLINK-APPCOMMON'></object>
+        
+    </head>
+    <body onload="Main.onLoad();" onunload="Main.onUnload();">
+<!-- Layout begins -->
+<a href='javascript:void(0);' id='anchor' onkeydown='Main.keyDown();'></a>
+        <div id="main">
+            <div id="logo"/>
+            <div id ="rightHalf">
+                <div id="videoBox_top"></div>
+                <div id="videoBox_left"></div>
+                <div id="videoBox_right"></div>
+                <div id="videoBox_bottom">
+                    <div id="time">
+                        <div id="progressBarBG">
+                            <div id="progressBar"></div>
+                        </div>
+                        <div id="timeInfo"></div>
+                    </div>
+                    <div id="volume">
+                        <div id="volumeIcon"></div>
+                        <div id="volumeBarBG">
+                            <div id="volumeBar"></div>
+                        </div>
+                        <div id="volumeInfo"></div>
+                    </div>
+                    <div id="videoControl">
+                        <div id="rewind"></div>
+                        <div id="play"></div>
+                        <div id="stop"></div>
+                        <div id="pause"></div>
+                        <div id="forward"></div>
+                    </div>
+                    <div id="status"></div>
+					<div id="xml"></div>
+                </div>
+                <div id="description_top"></div>
+                <div id="description_bottom"></div>
+                <div id="description"></div>
+            </div>
+            <div id="leftHalf">
+                <div id="videoList" class="style_videoList">
+                    <div id="video0"></div>
+                    <div id="video1"></div>
+                    <div id="video2"></div>
+                    <div id="video3"></div>
+                    <div id="video4"></div>
+                    <div id="videoCount"></div>
+                </div>
+            </div> 
+			
+        </div>
+    </body>
+</html>
+

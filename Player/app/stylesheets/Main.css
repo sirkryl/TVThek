@@ -1,0 +1,334 @@
+/* Defaults */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: relative;
+    color:#FFFFFF;
+    background-color: transparent;
+	font-family:Arial;
+	z-index:2;
+}
+
+/* Layout */
+body
+{
+    width: 960px; height: 540px;
+	
+}
+
+#main
+{
+     position: absolute;
+     left: 0px; top: 0px;
+     width: 960px; height: 540px;
+	 background-image: url(../../images/home_bg.png);
+}
+
+#logo
+{
+    position: absolute;
+	height: 20px;
+	width: 114px;
+    background-image: url(../../images/orf_logo.png);
+	background-repeat:no-repeat;
+    top:20px;
+    left:60px;
+}
+
+#rightHalf
+{
+	background-color:#142257;
+	border-width:2px;
+	border-color:#101C49;
+	border-style:solid;
+    position: absolute;
+    left:322px; top: 25px;
+    width: 525px; height: 440px;
+}
+
+#videoBox_top
+{
+    position:absolute;
+    left:-0px; top:23px;
+    width:550px; height:0px;
+    background-image:url(../../Images/videoBox/top.png);
+}
+
+#videoBox_left
+{
+    position:absolute;
+    left:-0px; top:23px;
+    width:0px; height:270px;
+    background-image:url(../Images/videoBox/left.png);
+}
+
+#videoBox_right
+{
+    position:absolute;
+    left:550px; top:23px;
+    width:0px; height:270px;
+    background-image:url(../Images/videoBox/right.png);
+}
+
+#videoBox_bottom
+{
+    position:absolute;
+    left:-0px; top:305px;
+    width:550px; height:56px;
+    background-image:url(../Images/videoBox/bottom.png);
+}
+
+#time
+{
+    position:absolute; 
+    left:10px; top:0px;
+    width:472px; height:24px;
+}
+
+#progressBarBG
+{
+    position:absolute;
+    left:0px; top:2px;
+    width:420px; height:8px;
+    background-image:url(../../images/videoBox/progressBarBG.png);
+}
+
+#progressBar
+{
+    position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(../../images/videoBox/progressBar.png);
+}
+
+#timeInfo
+{
+    position:absolute;
+    left:427px; top:0px;
+    width:60px; height:12px;
+    
+    text-align:center;
+    font-size:12px;
+}
+
+#volume
+{
+    position:absolute; 
+    left:10px; top:24px;
+    width:380px; height:24px;
+}
+
+#volumeIcon
+{
+    position:absolute;
+    left:0px; top:0px;
+    width:17px; height:16px;
+    background-image:url(../../images/videoBox/volume.png);
+}
+
+#volumeBarBG
+{
+    position:absolute;
+    left:22px; top:4px;
+    width:144px; height:8px;
+    background-image:url(../../images/videoBox/volumeBarBG.png);
+}
+
+#volumeBar
+{
+    position:absolute;
+    left:0px; top:0px;
+    width:0%; height:8px;
+    background-image:url(../../images/videoBox/volumeBar.png);
+}
+
+#volumeInfo
+{
+    position:absolute;
+    left:170px; top:2px;
+    width:32px; height:16px;
+    
+    text-align:left;
+    font-size:12px;
+}
+
+#videoControl
+{
+    position:absolute;
+    left:275px; top:22px;
+    width:100px; height:20px;
+}
+
+#rewind
+{
+    position:absolute;
+    left:-20px; top:0px;
+    width:20px; height:20px;
+    background-image:url(../../images/control/krew.png);
+    opacity:0.2;
+}
+
+#play
+{
+    position:absolute;
+    left:0px; top:0px;
+    width:20px; height:20px;
+    background-image:url(../../images/control/kplay.png);
+    opacity:1.0;
+}
+
+#stop
+{
+    position:absolute;
+    left:20px; top:0px;
+    width:20px; height:20px;
+    background-image:url(../../images/control/kstop.png);
+    opacity:0.2;
+}
+
+#pause
+{
+    position:absolute;
+    left:40px; top:0px;
+    width:20px; height:20px;
+    background-image:url(../../images/control/kpause.png);
+    opacity:0.2;
+}
+
+#forward
+{
+    position:absolute;
+    left:60px; top:0px;
+    width:20px; height:20px;
+    background-image:url(../../images/control/kfwd.png);
+    opacity:0.2;
+}
+
+#status
+{
+    position:absolute;
+    left:420px; top:28px;
+    width: 98px; height:16px;
+    font-style:italic;
+    text-align:left;
+    font-size:11px;
+}
+
+#description_top
+{
+    position:absolute;
+    left:20px; top:380px;
+    width:488px; height:50px;
+}
+
+#description_bottom
+{
+    position:absolute;
+    left:10px; top:440px;
+    width:488px; height:50px;
+}
+
+#description
+{
+    position:absolute;
+    left:10px; top:365px;
+    width:458px; height:80px;
+    
+    text-align:left;
+    font-size:12px;
+    overflow:hidden;
+    text-overflow : ellipsis;
+}
+
+/* Left Half */
+#leftHalf
+{
+    position:absolute;
+    left: 0px; top:0px;
+    width:380px; height:520px;
+}
+
+#videoList
+{
+    position:absolute;
+    left:0px; top:25px; 
+    width: 320px; height:440px;
+	background-color:#080C21;
+	border-width:2px;
+	border-color:#192349;
+	border-style:solid;
+}
+
+#video0
+{
+    position:absolute;
+    left:20px; top:50px;
+    width:290px; height:47px;
+    
+    background-repeat:no-repeat; 
+    padding-left:20px;
+    padding-top:8px;
+}
+
+#video1
+{
+    position:absolute;
+    left:20px; top:80px;
+    width:290px; height:47px;
+    
+    background-repeat:no-repeat; 
+    padding-left:20px;
+    padding-top:8px;
+}
+
+#video2
+{
+    position:absolute;
+    left:20px; top:110px;
+    width:290px; height:47px;
+    background-repeat:no-repeat; 
+    padding-left:20px;
+    padding-top:8px;
+}
+
+#video3
+{
+    position:absolute;
+    left:20px; top:140px;
+    width:290px; height:47px;
+    
+    background-repeat:no-repeat; 
+    padding-left:20px;
+    padding-top:8px;
+}
+
+#video4
+{
+    position:absolute;
+    left:20px; top:170px;
+    width:290px; height:47px;
+    
+    background-repeat:no-repeat; 
+    padding-left:20px;
+    padding-top:8px;
+}
+
+#videoCount
+{
+    position:absolute;
+    left:290px; top:10px;
+    width:30px; height:20px;
+    
+    text-align:left;
+    font-size:12px;
+}
+
+.style_videoList
+{    
+    color:#FFFFFF;
+    text-align:left;
+    font-size:14px;
+}

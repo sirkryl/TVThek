@@ -1,0 +1,52 @@
+<rss>
+    <channel>
+	<item>
+        <title>ZIB 20</title>
+		<duration>00:06:38.942</duration>
+		<entry>
+		<title>1: Signation</title>
+        <link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_2000_tl_01_ZIB-20_Signation__4705457__o__0000251475__s4705609___on_ORF1HiRes_20000102P_20004016P.smil/playlist.m3u8|COMPONENT=HLS</link>   
+        </entry>
+		<entry>
+		<title>2: Aktive Politiker im Korruptions-U-Ausschuss</title>
+		<link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_2000_tl_01_ZIB-20_Aktive-Politiker-im-__4705457__o__0000251477__s4705611___s__ORF1HiRes_20004016P_20015216P.smil/playlist.m3u8|COMPONENT=HLS</link>
+		</entry>
+		<entry>
+		<title>3: Andreas Bohusch aus dem Parlament</title>
+		<link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_2000_tl_01_ZIB-20_Andreas-Bohusch-live__4705457__o__0000251479__s4705613___nt_ORF1HiRes_20015216P_20030822P.smil/playlist.m3u8|COMPONENT=HLS</link>
+		</entry>
+		<entry>
+		<title>4: Urteile im Birnbacher/Martinz-Prozess</title>
+		<link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_2000_tl_01_ZIB-20_Urteile-im-Birnbache__4705457__o__0000251481__s4705615___ss_ORF1HiRes_20030822P_20042210P.smil/playlist.m3u8|COMPONENT=HLS</link>
+		</entry>
+		<entry>
+		<title>5: Nach der Wahl in Georgien</title>
+		<link>http://apasfw.apa.at/cms-worldwide/smil:/2012-10-02_2000_tl_01_ZIB-20_Nach-der-Wahl-in-Geo__4705457__o__0000251483__s4705619___en_ORF1HiRes_20042210P_20045723P.smil/playlist.m3u8|COMPONENT=HLS</link>
+		</entry>
+	</item> 
+	<item>
+        <title>Wien heute, 2. Oktober 2012</title>
+		<duration>00:10:39.922</duration>
+		<entry>
+		<title>1: Wien heute, 2. Oktober 2012</title>
+        <link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_1900_tl_21_WIEN-HEUTE_Wien-heute--2--Oktob__4701027__o__0000251335__s4704775____2_WHiRes_19000000P_19023200P.smil/playlist.m3u8|COMPONENT=HLS</link>   
+        </entry>
+		<entry>
+		<title>2: Aus brennendem Auto gerettet</title>
+        <link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_1900_tl_21_WIEN-HEUTE_Aus-brennendem-Auto-__4701027__o__0000251337__s4704777___et_WHiRes_19023200P_19025900P	.smil/playlist.m3u8|COMPONENT=HLS</link>          
+		</entry>
+		<entry>
+		<title>3: Taxifahren wird teurer</title>
+        <link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_1900_tl_21_WIEN-HEUTE_Taxifahren-wird-teur__4701027__o__0000251339__s4704779___er_WHiRes_19025900P_19053700P.smil/playlist.m3u8|COMPONENT=HLS</link>          
+		</entry>
+		<entry>
+		<title>4: Anton Benya Preis vergeben</title>
+        <link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_1900_tl_21_WIEN-HEUTE_Anton-Benya-Preis-ve__4701027__o__0000251341__s4704781___en_WHiRes_19053700P_19055600P.smil/playlist.m3u8|COMPONENT=HLS</link>          
+		</entry>
+		<entry>
+		<title>5: Facharbeiter-Ausbildung im Häfn</title>
+        <link>http://apasfw.apa.at/cms-worldwide/smil:2012-10-02_1900_tl_21_WIEN-HEUTE_Facharbeiter-Ausbild__4701027__o__0000251343__s4704783___fn_WHiRes_19055600P_19082400P.smil/playlist.m3u8|COMPONENT=HLS</link>          
+		</entry>
+    </item> 
+    </channel>
+</rss>

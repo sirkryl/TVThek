@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/button_addClip"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_addlistitem"
+        android:drawableLeft="@drawable/add_plus"
+        android:drawablePadding="20dp"
+        android:onClick="onButtonClick_button_addClip"
+        android:layout_alignParentTop="true"
+        android:text="@string/addClipButton_text" />
+
+    <fdts.android.dragndrop.DragNDropListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_addClip">
+    </fdts.android.dragndrop.DragNDropListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_entry" 
+        android:layout_below="@id/button_addClip" />
+    <Button
+        android:id="@+id/button_sendToTV"
+        style="@style/TVThekButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_addlistitem"
+        android:onClick="onButtonClick_button_sendToTV"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/sendToTV_text" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+body {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+
+	background-image: url('../resource/images/home_bg.png');
+}
+
+#page_wrap {
+	width: 100%;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	margin: 10px;
+}
+
+#tvthek_logo {
+	float: left;
+	
+	margin-top: 20px;
+}
+
+#playlist {
+	width: 30%;
+	
+	float: left;
+	text-align: left;
+}
+
+#top {
+	width: 100%;
+	height: 50px;
+//	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: left;
+}
+
+#cliplist {
+	width: 100%;
+	text-align: left;
+}
+
+#bottom {
+	width: 100%;
+	height: 50px;
+//	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: left;
+}
+
+ul{     
+	 list-style: circle;
+}
+
+li{
+font: normal 13pt Arial, Helvetica, sans-serif;
+color: #FFF;
+}
+
+.actual {
+color: #FF0000;
+}
+
+.highlighted{
+background: #0c9;
+border-width: medium;
+border-color: #fff;
+}
+
+#act_content {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+#container {
+	width: 100%;
+	height: 400px;
+}

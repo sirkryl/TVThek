@@ -1,0 +1,24 @@
+<rss>
+    <channel>
+	<item>
+        <title>ORF TVThek</title>
+		<duration>00:06:38.942</duration>
+		<entry>
+		<title>1: Signation</title>
+        <link>http://apasfw.apa.at/cms-worldwide/smil:2012-09-30_2000_tl_01_ZIB-20_Signation---Headline__4692693__o__0000247795__s4692893___es_ORF1HiRes_19594723P_20002703P.smil/playlist.m3u8|COMPONENT=HLS</link>   
+        </entry>
+		<entry>
+		<title>2: Zeugenschwund beim U-Ausschuss</title>
+		<link>http://apasfw.apa.at/cms-worldwide/smil:2012-09-30_2000_tl_01_ZIB-20_6-Tote-bei-Cessna-Ab__4692693__o__0000247797__s4692895___ol_ORF1HiRes_20002703P_20021622P.smil/playlist.m3u8|COMPONENT=HLS</link>
+		</entry>
+	</item> 
+	<item>
+        <title>Big Buck Bunny (HAS) - all bitrates</title>
+		<duration>00:10:39.922</duration>
+		<entry>
+		<title>Bunny1</title>
+        <link>http://drq08ysq9m8gx.cloudfront.net/TestStream/HLS_BigBuckTS.m3u8|COMPONENT=HLS</link>   
+        </entry>
+    </item> 
+    </channel>
+</rss>

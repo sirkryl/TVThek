@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<type itemtype="string">user</type>
+	<ThumbIcon itemtype="string"></ThumbIcon>
+	<BigThumbIcon itemtype="string"></BigThumbIcon>
+	<ListIcon itemtype="string"></ListIcon>
+	<BigListIcon itemtype="string"></BigListIcon>
+	<previewjs itemtype="string">TVThek - Playlists</previewjs>
+	<cpname itemtype="string">Samsung</cpname>
+	<cplogo itemtype="string"></cplogo>
+	<cpauthjs itemtype="string"></cpauthjs>
+	<ver itemtype="string">0.930</ver>
+	<mgrver itemtype="string">1.000</mgrver>
+	<fullwidget itemtype="string">y</fullwidget>
+	<srcctl itemtype="string">n</srcctl>
+	<ticker itemtype="string">n</ticker>
+	<childlock itemtype="string">n</childlock>
+	<audiomute itemtype="string">n</audiomute>
+	<videomute itemtype="string">n</videomute>
+	<dcont itemtype="string">y</dcont>
+	<network itemtype="string">y</network>
+	<hubsite itemtype="string">y</hubsite>
+	<widgetname itemtype="string">Player</widgetname>
+	<description itemtype="string">TVThek - Playlists</description>
+	<width itemtype="number">960</width>
+	<height itemtype="number">540</height>
+	<author itemtype="group">
+		<name itemtype="string">Dihuscha</name>
+		<email itemtype="string"></email>
+		<link itemtype="string"></link>
+		<organization itemtype="string">TVThek</organization>
+	</author>
+</widget>

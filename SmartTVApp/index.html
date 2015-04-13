@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>TVThek - Playlists</title>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js">
+        </script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js">
+        </script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/CImageViewer.js">
+        </script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/webapi/1.0/deviceapis.js">
+        </script>
+        <script type="text/javascript" language="javascript" src="javascript/Main.js">
+        </script>		
+        <link rel='stylesheet' type='text/css' href = 'CSS/Main.css'/>
+    </head>
+    <body onload="Main.onLoad();">
+        <div id="page_wrap">
+            <div id="header">
+                <img id='tvthek_logo' src="resource\images\orf_logo.png">
+            </div>
+            <div id="playlist">
+                <div id='top'>
+                    TVThek - Playlist <span id="pl_name"></span>
+                </div>
+                <ul id="cliplist"></ul>
+			<div id='bottom'>
+            </div>
+            </div>
+            <div id="act_content">
+                <iframe id="container">
+                    <p>
+                        Ich unterstütze keine IFrames! : ( 
+                    </p>
+                </iframe>
+            </div>
+            
+            <a href='javascript:void(0);' id='anchor' onkeydown='Main.keyDown();'></a>
+        </div>
+    </body>
+</html>

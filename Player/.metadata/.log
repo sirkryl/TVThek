@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEVICEAPIPS>
+	<FILES name="C:\Program Files (x86)\Samsung\Samsung TV SDK(3.5.2)\apps\SmartTVApp\javascript\main.js">
+		<PARAM name="custom" type="customdevice||{}" position="4"/>
+	</FILES>
+	<FILES name="C:\Users\Sandra\AppData\Local\796A04AB79064540B43815438F642E3E.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="5"/>
+	</FILES>
+	<FILES name="C:\Users\Sandra\AppData\Local\0FF85CD26A3347bf90D66DAFB2CDDBA3.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="5"/>
+	</FILES>
+	<FILES name="C:\Users\Sandra\AppData\Local\51616710157A4064B9287CE36B59D554.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="5"/>
+	</FILES>
+	<FILES name="C:\Users\Sandra\AppData\Local\1D4A97C8C1B040f399B49D9D7646489F.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="5"/>
+	</FILES>
+	<FILES name="C:\Users\Sandra\AppData\Local\084D87EC1EF5492eBA73419044FE3CC9.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="5"/>
+	</FILES>
+	<FILES name="C:\Program Files (x86)\Samsung\Samsung TV SDK(3.5.2)\apps\Player\app\javascript\Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="5"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\D22C2CFDDD564993B997B4F01A520EFC.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\41D167BECC7544bcAD70CC82A5800604.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\F921EE6535A3437fA0F3A83186E3F355.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\6BB06CF099154b72B76126234852BEEF.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\A56D0B59BB7348db8A2C59DC049E711E.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\02D5552BDB584bf0947D08F7967FBD41.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\63B598ADA67E4f519DB59D919BF8DAD8.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Tanja\AppData\Local\E602F883BA294caaA3960E8943711A1E.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Chrissly\AppData\Local\092B3D562A1843b0B82C647C9327EB69.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Chrissly\AppData\Local\AEFB94D3D9BA4879BF3B3A3CFBE1E94D.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+	<FILES name="C:\Users\Chrissly\AppData\Local\2C29A89A1C744e588B4015156CCDF6AF.Main.js">
+		<PARAM name="custom" type="customdevice||{}" position="2"/>
+	</FILES>
+</DEVICEAPIPS>

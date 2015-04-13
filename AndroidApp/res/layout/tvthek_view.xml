@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvthekLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/button_tvthekChoosePlaylist"
+        style="@style/InfoButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_info"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonClick_button_choosePlaylist"
+        android:text="@string/tvThekInfoButton_text"/>
+    
+    <WebView
+        android:id="@+id/web_engine"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button_tvthekAddSpot"
+        style="@style/TVThekButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_addlistitem"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonClick_button_addClip"
+        android:text="@string/tvthekAddSpot_text"/>
+ 
+
+</LinearLayout>
